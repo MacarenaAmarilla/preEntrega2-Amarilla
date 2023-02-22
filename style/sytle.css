@@ -10,10 +10,11 @@
 
 .red-social {
   font-size: 30px;
+  margin: 15px;
 }
 .red-social:hover {
-transform: scale(1.5, 1.5);
-transition: 1000ms;
+  transform: scale(1.5, 1.5);
+  transition: 1000ms;
 }
 .textos-header h1,
 h1 {
@@ -46,24 +47,24 @@ p {
   text-align: center;
 }
 
-.carrusel-inner {
+.carousel-inner {
   max-height: 39rem;
 }
 
-body {
-  background-color: rgba(253, 253, 253, 0.808);
-  background-repeat: no-repeat;
-  background-size: cover
-  background-attachment: fixed;
-}
-
 .icons {
-  color: #ba0ddc
-
+  color: #ba0ddc;
 }
 
+.red-social2 {
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+}
 
-/* mediaqueris */
+.red-social2 a {
+  margin: 15px;
+  color: #ba0ddc;
+}
 
 /* footer */
 .footer {
@@ -72,12 +73,20 @@ body {
   background-color: black;
   padding: 5px;
   text-align: center;
-  position: absolute;
-  display: block;
   color: #f0f0f0;
   width: 100%;
   height: 170px;
+
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
 }
 .footer a {
   color: rgb(237, 130, 228);
+}
+
+.p-footer {
+  color: #fff;
+  margin: 5px;
 }
